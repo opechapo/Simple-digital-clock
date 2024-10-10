@@ -1,0 +1,24 @@
+body{
+  margin: 0;
+  background-image: url(images/file-lagos.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#clock-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  height: 100vh;
+}
+#clock{
+  font-family: monospace;
+  font-size: 6.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  backdrop-filter: blur(3px) ;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
